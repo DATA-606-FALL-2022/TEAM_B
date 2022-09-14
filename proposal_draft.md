@@ -37,10 +37,10 @@ For this analysis, we plan to get the dataset from https://data.mendeley.com/. T
 
 ## UNIT OF ANALYSIS
 
-* Our unit of analysis is to find out the type of skin cancer for patients. ~2298 samples of observations are expected to be analyzed.
+* Our unit of analysis is to find out the type of skin cancer for patients. ~2298 samples of rows and 26 columns.
 
 ### What variables/measures do you plan to use in your analysis (variables should be tied to the questions in #3)?
- + We will using gender, age, skin_cancer, cancer_history
+ + We will using patient_id, gender, age, cancer_history
 
 ### What kinds of techniques/models do you plan to use (for example, clustering, NLP, ARIMA, etc.)?
 * We will applying machine learning classification and deep learning CNN modelling.
