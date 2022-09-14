@@ -40,10 +40,10 @@ For this analysis, we plan to get the dataset from https://data.mendeley.com/. T
 * Our unit of analysis is to find out the type of skin cancer for patients. ~2298 samples of rows and 26 columns.
 
 ### What variables/measures do you plan to use in your analysis (variables should be tied to the questions in #3)?
- + We will using patient_id, gender, age, cancer_history
+ + We will be using 22 clinical features including the patient's age, skin lesion location, skin type, and skin lesion diameter.
 
 ### What kinds of techniques/models do you plan to use (for example, clustering, NLP, ARIMA, etc.)?
-* We will applying machine learning classification and deep learning CNN modelling.
+* We will be applying machine learning classification and deep learning CNN modelling.
 
 ## Below are the machine learning classification techniques:
 
