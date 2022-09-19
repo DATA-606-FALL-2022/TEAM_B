@@ -24,7 +24,7 @@ This is a team project of Nese Tirki and Charishma Choudary Tummala.
 
 ## DATASET
 
-The CodaLab Twitter Emoji dataset consists of 50,000 tweets and their corresponding emoji labels. There is a corresponding numerical label for each tweet in the collection that corresponds to an individual emoji. The labels run from 0 to 19, and the emojis are among the 20 most popular emoticons. Using Python scripts, the initial dataset is first written to a raw text file and then to a csv file.
+The CodaLab Twitter Emoji dataset consists of 50,000 tweets and their corresponding emoji labels. So, here it consists of 50,000 observations and 2 columns("Tweet" and "Label").  There is a corresponding numerical label for each tweet in the collection. Similarly, there is one more txt data where each label corresponds to an individual emoji. The labels run from 0 to 19, and the emojis are among the 20 most popular emotions. Using Python scripts, the labels having corresponding emojis txt file is converted to a csv file.
 
 # Processing tweets
 
@@ -77,13 +77,13 @@ statistics to train on a data set with word-byword co-occurrence and frequency c
 * Data collection.
 * Cleaning of the data.
 * Exploratory Data Analysis.
-* Performing Machine modeling.
+* Performing Machine Learning modeling.
 * Performing Tokenization.
 
 ### Nese
 
-* Performing Deep learning modelling.
 * Performing Globe Embedding.
+* Performing Deep learning modelling.
 * Model comparison.
 * Cross validating the results.
 * Evaluating a best fit model for prediction.
