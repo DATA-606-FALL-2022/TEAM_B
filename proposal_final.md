@@ -49,7 +49,7 @@ statistics to train on a data set with word-byword co-occurrence and frequency c
 
  ## UNIT OF ANALYSIS
  
- Label is the target variable. With the help of the "Tweet" feature, we are going to predict emojis. For example, if the tweet is mentioned as "Love my work family Thank you" then the label assigned to it is 0 and the corresponding emoji for that label 0 is ❤️
+ Label is the target variable. With the help of the "Tweet" feature, we are going to predict label emojis. For example, if the tweet is mentioned as "Love my work family Thank you" then the label assigned to it is 0 and the corresponding emoji for that label 0 is ❤️
  
 ## METHODOLOGY
 
@@ -59,7 +59,7 @@ statistics to train on a data set with word-byword co-occurrence and frequency c
 * Global vector embedded layer
 * Long Short-Term Memory
 * Bidirectional-LSTMs
-* RRN
+* RNN
 
 # Outcomes
 
