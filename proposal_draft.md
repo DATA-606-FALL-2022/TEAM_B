@@ -16,10 +16,10 @@ This is a team project of Nese Tirki and Charishma Choudary Tummala.
 * Emojis are tiny, pictorial representations of feelings or objects that are frequently used in text messages to improve interpersonal communication. Here, establishing a connection between the text messages and the emojis employed is the major goal. Data gathering, preprocessing, model development, model training, and model evaluation are the project's phases. The goal of the model we create is to comprehend the text sentence's underlying semantics utilizing natural processing and deep learning approaches to forecast emojis that make sense.
 
 
-## Twitter Data Set 
+## Twitter and Emoji Data Set 
 
-![image](https://user-images.githubusercontent.com/90660841/190936739-49a7438d-4b23-4a0c-94ec-55c211ae963d.png)
-
+https://www.kaggle.com/datasets/saivaibhav1/twitter-data-emoji?select=Twitter_Data.csv
+https://www.kaggle.com/datasets/saivaibhav1/twitter-data-emoji?select=us_mapping.txt
 
 
 ## DATASET
@@ -45,10 +45,14 @@ Next , lemmatization is applied on the text which determines the root word which
  
 ## METHODOLOGY
 
+* CountVectorization
 * Multinomial Naïve Bayes Algorithm
 * Support Vector Machines
-* Tokenization
-* Global vector embedded layer
+* LogisticRegression
+* DecisionTree
+* Random Forest
+* XGBoost
+* Text Tokenization
 * Long Short-Term Memory
 * Bidirectional-LSTMs
 * RRN
