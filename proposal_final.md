@@ -16,10 +16,10 @@ This is a team project of Nese Tirki and Charishma Choudary Tummala.
 * Emojis are tiny, pictorial representations of feelings or objects that are frequently used in text messages to improve interpersonal communication. Here, establishing a connection between the text messages and the emojis employed is the major goal. Data gathering, preprocessing, model development, model training, and model evaluation are the project's phases. The goal of the model we create is to comprehend the text sentence's underlying semantics utilizing natural processing and deep learning approaches to forecast emojis that make sense.
 
 
-## Twitter Data Set 
+## Twitter and Emoji Data Sets 
 
-![image](https://user-images.githubusercontent.com/90660841/190936739-49a7438d-4b23-4a0c-94ec-55c211ae963d.png)
-
+https://www.kaggle.com/datasets/saivaibhav1/twitter-data-emoji?select=Twitter_Data.csv
+https://www.kaggle.com/datasets/saivaibhav1/twitter-data-emoji?select=us_mapping.txt
 
 
 ## DATASET
@@ -35,17 +35,10 @@ Next , lemmatization is applied on the text which determines the root word which
 
 ** Lemmatization of text
 
+# Text Tokenization
 
+* Implementation of text tokenization to help the document to form in a sequence i.e a series of integers which will be helpful for deep learning approach. The next step is followed by padding of sequences because each document will be having a different sequence length so in order to have a fixed sequence length we will be performing padding of sequences.
 
-* GloVe is an unsupervised learning algorithm for obtaining vector representations for words. GloVe is a program that provides relevant
-information about the meaning of individual
-words and may be used to compute the
-correlation between them. Each word in a
-semantic vector formatted representation of a
-language is evaluated using a real-valued
-vector. These vectors are from a special
-weighted least squares model that uses
-statistics to train on a data set with word-byword co-occurrence and frequency counts.
 
  ## UNIT OF ANALYSIS
  
@@ -53,36 +46,37 @@ statistics to train on a data set with word-byword co-occurrence and frequency c
  
 ## METHODOLOGY
 
+* CountVectorization
 * Multinomial Naïve Bayes Algorithm
 * Support Vector Machines
-* Tokenization
-* Global vector embedded layer
+* LogisticRegression
+* DecisionTree
+* Random Forest
+* XGBoost
+* Text Tokenization
 * Long Short-Term Memory
 * Bidirectional-LSTMs
-* RNN
-
+* RRN
+ 
 # Outcomes
 
-* In this study, we present a couple of machine learning and recurrent neural network models using GloVe embeddings and will find out which model has high accuracy using classification report to predict the emoji symbol while comprehending the whole context of the statement and to develop the model in a simple and efficient manner.
-
-
-
-
+* In this study, we present a couple of machine learning and deep learning models using tokenizations and will find out which model has high accuracy using classification report to predict the emoji symbol while comprehending the whole context of the statement and to develop the model in a simple and efficient manner.
 
 
 ## Team Roles and Responsibilities
 
-### Charishma
-
-* Data collection.
-* Cleaning of the data.
-* Exploratory Data Analysis.
-* Performing Machine Learning modeling.
-* Performing Tokenization.
-
 ### Nese
 
-* Performing Globe Embedding.
+* Data collection.
+* Exploratory Data Analysis
+* Cleaning of the data.
+* pre-processing data with tokenization
+* Performing Machine learning modeling
+
+### Charishma
+
+* Performing CountVectorization.
+* Performing Text Tokenization.
 * Performing Deep learning modelling.
 * Model comparison.
 * Cross validating the results.
