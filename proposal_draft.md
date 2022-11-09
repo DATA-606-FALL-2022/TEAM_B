@@ -35,17 +35,9 @@ Next , lemmatization is applied on the text which determines the root word which
 
 ** Lemmatization of text
 
+# Text Tokenization
 
-
-* GloVe is an unsupervised learning algorithm for obtaining vector representations for words. GloVe is a program that provides relevant
-information about the meaning of individual
-words and may be used to compute the
-correlation between them. Each word in a
-semantic vector formatted representation of a
-language is evaluated using a real-valued
-vector. These vectors are from a special
-weighted least squares model that uses
-statistics to train on a data set with word-byword co-occurrence and frequency counts.
+* Implementation of text tokenization to help the document to form in a sequence i.e a series of integers which will be helpful for deep learning approach. The next step is followed by padding of sequences because each document will be having a different sequence length so in order to have a fixed sequence length we will be performing padding of sequences.
 
  ## UNIT OF ANALYSIS
  
@@ -63,26 +55,23 @@ statistics to train on a data set with word-byword co-occurrence and frequency c
 
 # Outcomes
 
-* In this study, we present a couple of machine learning and recurrent neural network models using GloVe embeddings and will find out which model has high accuracy using classification report to predict the emoji symbol while comprehending the whole context of the statement and to develop the model in a simple and efficient manner.
-
-
-
-
+* In this study, we present a couple of machine learning and deep learning models using tokenizations and will find out which model has high accuracy using classification report to predict the emoji symbol while comprehending the whole context of the statement and to develop the model in a simple and efficient manner.
 
 
 ## Team Roles and Responsibilities
 
-### Charishma
-
-* Data collection.
-* Cleaning of the data.
-* Exploratory Data Analysis.
-* Performing Machine Learning modeling.
-* Performing Tokenization.
-
 ### Nese
 
-* Performing Globe Embedding.
+* Data collection.
+* Exploratory Data Analysis
+* Cleaning of the data.
+* pre-processing data with tokenization
+* Performing Machine learning modeling
+
+### Charishma
+
+* Performing CountVectorization.
+* Performing Text Tokenization.
 * Performing Deep learning modelling.
 * Model comparison.
 * Cross validating the results.
