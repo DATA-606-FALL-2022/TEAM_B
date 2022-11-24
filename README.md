@@ -7,7 +7,7 @@
 #### Dataset: [data](https://github.com/DATA-606-FALL-2022/TEAM_B/tree/main/Data)
 #### Presentation: [Final presentation](https://github.com/DATA-606-FALL-2022/TEAM_B/blob/main/Final%20presentation.pptx)
 #### Code: [notebooks](https://github.com/DATA-606-FALL-2022/TEAM_B/tree/main/Jupyter%20notebooks)
-####  
+#### Youtube: [Youtube](https://www.youtube.com/watch?v=pHcBouGcb1I)
 
 ## 1. Project Overview
 Text communications regularly include emojis, which are little, graphical representations of emotions or things, to enhance interpersonal communication. Here, the main objective is to develop a relationship between the text messages i.e tweets and the used emojis. The project is divided into phases, which include data collection, preprocessing, model construction, model training, and model evaluation. In order to predict emojis that make sense, our model aims to understand the underlying semantics of the text phrase using natural processing and deep learning techniques.
