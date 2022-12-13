@@ -130,6 +130,25 @@ With the help of text tokenization and padding of sequences we will be implement
    In deep learning we have approached for ’Text Tokenization’ where it allows the document to form in a sequence(series of integers) whereas in              pre-processing there is no formation of sequence appearing for a set of tokens.
         
  * 12.3   Deep learning approaches especially LSTM's have high chances of understanding the semantic relationships between the texts. Emojis fill a      communication gap in texting. When compared to the social signs we pick up through spoken communication, this is the best. Emojis and emoticons can lessen the possibility of information ambiguity in a similar way as body language does in face-to-face interactions. In future, we will be implementing more numbers of emojis with their corresponding labels. So that the communication via texts will have much more efficiency.
+ 
+## Team Roles and Responsibilities
+
+### Nese
+
+* Data collection.
+* Exploratory Data Analysis
+* Cleaning of the data.
+* pre-processing data with tokenization
+* Performing Machine learning modeling
+
+### Charishma
+
+* Performing CountVectorization.
+* Performing Text Tokenization.
+* Performing Deep learning modelling.
+* Model comparison.
+* Cross validating the results.
+* Evaluating a best fit model for prediction.
         
 ## References
 Duminda, D. (2019, January 18). sentiment-analysis. https://medium.datadriveninvestor.com/sentiment-analysis-on-customer-tweets-nlp-c0eeaeffd19a
